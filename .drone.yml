@@ -1,0 +1,8 @@
+name: drone-test
+kind: pipeline
+
+steps:
+- name: test
+  image: alpine
+  commands:
+  - echo "second repo testing!!"
